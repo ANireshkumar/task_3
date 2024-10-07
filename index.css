@@ -188,13 +188,9 @@ p {
   justify-content: space-between;
 }
 
-.card-bottom > span {
-  color: var(--para-color);
-}
-
 .old-price {
   text-decoration: line-through;
-  color: var(--para-color);
+
 }
 .new-price {
   color: var(--primary-color);
