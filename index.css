@@ -1,0 +1,265 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0%;
+  background-color: #fff;
+  margin: 16px 48px;
+}
+body button {
+  cursor: pointer;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: black;
+  margin: 16px;
+}
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+.headerclass > a {
+  display: flex;
+  color: inherit;
+}
+.headerclass img {
+  object-fit: contain;
+  padding-left: 18px;
+  padding-top: 5px;
+}
+.navlinks {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+#sigin {
+  margin-left: 30px;
+  padding: 12px 30px;
+  background-color: darkorange;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+.login {
+  justify-content: space-between;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-area {
+  padding-left: 100px;
+  flex-grow: 1;
+}
+.main-area > h1 {
+  font-size: 64px;
+}
+section {
+  margin: 0 48px;
+}
+
+section {
+  margin: 0 48px;
+}
+
+.filter-sec {
+  display: flex;
+  background-color: white;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 16px;
+  gap: 48px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-item {
+  flex-shrink: 0;
+  min-width: 136px;
+}
+
+.filter-item > h3 {
+  display: inline;
+}
+
+.filter-item > i {
+  color: darkorange;
+  font-size: 20px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+}
+#Explore {
+  padding: 12px 30px;
+  background-color: darkorange;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+#discover {
+  margin-left: 30px;
+  padding: 12px 30px;
+  background-color: white;
+  border-radius: 10px;
+  color: darkorange;
+  border-color: darkorange;
+  font-weight: bold;
+}
+.fa-solid {
+  color: darkorange;
+}
+p {
+  color: #34323299;
+}
+.orangecolor {
+  color: darkorange;
+}
+.do {
+  text-align: center;
+}
+.Needtodo {
+  font-size: 84px;
+}
+
+.things {
+  display: flex;
+  gap: 34px;
+  margin: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.thing-card {
+  margin: 0%;
+  background-color: white;
+  padding: 16px;
+  width: 350px;
+  flex-grow: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.deals {
+  font-size: 84px;
+}
+.pack {
+  text-align: center;
+}
+.bookings {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 16px;
+  flex-wrap: wrap;
+}
+
+.booking-card {
+  background-color: white;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.card-title {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title > h3 {
+  margin: 0;
+}
+
+.rating > i {
+  color: yellow;
+}
+
+.card-bottom {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-bottom > span {
+  color: var(--para-color);
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: var(--para-color);
+}
+.new-price {
+  color: var(--primary-color);
+  background-color: rgba(250, 116, 54, 0.2);
+  border-radius: 4px;
+}
+
+.book-btn {
+  visibility: hidden;
+  position: absolute;
+  bottom: 10px;
+  right: 90px;
+}
+
+.booking-card img:hover + .book-btn,
+.book-btn:hover {
+  visibility: visible;
+  color: white;
+  background-color: darkorange;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+}
+.Vacation {
+  text-align: center;
+}
+.vacationplan {
+  font-size: 84px;
+}
+.vac {
+  text-align: center;
+}
+.vacbookings {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 16px;
+  flex-wrap: wrap;
+}
+
+.vacbooking-card {
+  background-color: white;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.vaccard-title {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vaccard-title > h3 {
+  margin: 0;
+}
+
+.vacrating > i {
+  color: yellow;
+}
+
+.vaccard-bottom {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.blog {
+  text-align: center;
+}
